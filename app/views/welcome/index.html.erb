@@ -1,2 +1,125 @@
-<h1>Welcome#index</h1>
-<h1>Hello, Rails!</h1>
+
+<!DOCTYPE html>
+
+
+  <head>
+
+
+
+    <!-- Custom fonts for this template -->
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    
+   <!--  %= stylesheet_link_tag "agency.min.css" -->
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">RootValley</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+          
+          
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Equipo</a>
+            </li>
+         
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+   <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in">RootValley</div>
+          <div class="intro-heading text-uppercase">Soluciones para el futuro</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Saber más</a>
+        </div>
+      </div>
+	</header>
+
+  
+
+    <!-- Services -->
+
+      
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Sobre nosotros</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                	<%= image_tag('logito13', draggable: "true", id: "drag1",:class=> "rounded-circle img-fluid") %>
+                
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+
+                    <h4>Misión</h4>
+                    <h4 class="subheading"></h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Proveer de productos y servicios tecnológicos dirigidos a personas, entidades gubernamentales y entidades privadas para la implementación de programas sustentables.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                                 </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Visión</h4>
+                    <h4 class="subheading"></h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Estar a la vanguardia de la innovación tecnológica en función del bienestar ecológico, económico y social a nivel nacional e internacional.
+</p>
+                  </div>
+                </div>
+              </li>
+          
+             
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Se parte
+                    <br>de nuestra
+                    <br>Revolución!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+  </body>
+
+</html>
